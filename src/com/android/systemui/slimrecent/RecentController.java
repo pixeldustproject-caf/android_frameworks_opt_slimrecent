@@ -412,7 +412,7 @@ public class RecentController implements RecentPanelView.OnExitListener,
 
         // Default empty recents drawable
         VectorDrawable vd = (VectorDrawable)
-                mContext.getResources().getDrawable(R.drawable.ic_empty_recent);
+                mContext.getResources().getDrawable(R.drawable.ic_recent_keyguard);
         vd.setTint(tintColor);
         mKeyguardImage.setImageDrawable(vd);
         mKeyguardText.setTextColor(tintColor);
